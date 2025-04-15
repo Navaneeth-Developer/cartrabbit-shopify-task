@@ -57,10 +57,41 @@ const Product = () => {
   };
 
   // Function to update modified products only
+  // const updateProducts = async () => {
+  //   const modifiedProducts = products.filter(
+  //     (product, index) => product.title !== originalProducts[index].title
+  //   );
+
+  //   if (modifiedProducts.length === 0) {
+  //     showToast("No changes detected!");
+  //     return;
+  //   }
+
+  //   try {
+  //     const response = await fetch("/api/products/update", {
+  //       method: "PUT",
+  //       headers: { "Content-Type": "application/json" },
+  //       body: JSON.stringify({ products: modifiedProducts }),
+  //     });
+
+  //     if (response.ok) {
+  //       showToast("Products updated successfully!");
+  //       setOriginalProducts(products.map((p) => ({ ...p }))); // Reset originals
+  //       setIsModified(false); // Disable button after update
+  //     } else {
+  //       showToast("Failed to update products. Please try again.");
+  //     }
+  //   } catch (error) {
+  //     showToast("Error: Unable to update products.");
+  //   }
+  // };
+  // Modify updateProducts function
   const updateProducts = async () => {
-    const modifiedProducts = products.filter(
-      (product, index) => product.title !== originalProducts[index].title
-    );
+    const modifiedProducts = products
+      .filter(
+        (product, index) => product.title !== originalProducts[index].title
+      )
+      .map(({ id, title }) => ({ id, title })); // Send only id and updated title
 
     if (modifiedProducts.length === 0) {
       showToast("No changes detected!");
