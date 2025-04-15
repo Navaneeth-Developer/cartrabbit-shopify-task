@@ -64,7 +64,7 @@ npm run dev
 
 ## Video Preview
 
-[![Watch the video](https://www.loom.com/share/d41184a974604dc8aba01d7af9ddb638?sid=c669b789-130d-426b-ad64-6311c2c8e6e5)]
+<iframe src="https://www.loom.com/embed/d41184a974604dc8aba01d7af9ddb638" frameborder="0" allowfullscreen></iframe>
 
 ---
 
