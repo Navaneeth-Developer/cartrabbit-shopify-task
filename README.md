@@ -64,12 +64,7 @@ npm run dev
 
 ## Video Preview
 
-`html
-<video width="640" height="360" controls>
-
-  <source src="https://somup.com/cTfoftsaoY" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Watch the video](https://www.loom.com/share/d41184a974604dc8aba01d7af9ddb638?sid=c669b789-130d-426b-ad64-6311c2c8e6e5)]
 
 ---
 
