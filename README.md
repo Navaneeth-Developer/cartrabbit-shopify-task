@@ -1,3 +1,63 @@
+# Cartrabbit Shopify Task
+
+## Overview
+
+This Shopify app is built using Node.js and React. It allows users to:
+
+- Authenticate with a Shopify store via OAuth.
+- Retrieve and display a list of products from the connected Shopify store.
+- Bulk update product titles through a simple UI.
+
+## Prerequisites
+
+Ensure you have the following installed:
+
+- Node.js (latest stable version)
+- npm or yarn package manager
+- Shopify Partner Account (for a development store)
+- Shopify CLI (for authentication and development)
+
+## Installation & Setup
+
+### 1. Clone the Repository
+
+git clone https://github.com/Navaneeth-Developer/cartrabbit-shopify-task.git
+
+### 2. Install Dependencies
+
+npm install
+
+### 3. Configure Environment Variables
+
+- Create a .env file in the backend directory.
+- Add the required Shopify
+
+API keys:
+
+SHOPIFY_API_KEY=your_api_key
+SHOPIFY_API_SECRET=your_api_secret
+
+### 4. Start the App
+
+Run the backend and frontend together:
+
+npm run dev
+
+## Features
+
+✅ Shopify OAuth authentication
+✅ Fetch & display Shopify products
+✅ Bulk update product titles
+
+## Notes
+
+- This app works only with Shopify development stores.
+- Ensure your Shopify CLI and API keys are correctly configured.
+
+---
+
+# To create a new Shopify app, follow these steps:
+
 # Shopify App Template for Node
 
 This is a template for building a [Shopify app](https://shopify.dev/docs/apps/getting-started) using Node and React. It contains the basics for building a Shopify app.
