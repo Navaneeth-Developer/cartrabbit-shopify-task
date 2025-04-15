@@ -29,13 +29,13 @@ npm install
 
 ### 3. Configure Environment Variables
 
-- Create a .env file in the backend directory.
+- Create a .env file in the outside web directory.
 - Add the required Shopify
 
-API keys:
+  API keys:
 
-SHOPIFY_API_KEY=your_api_key
-SHOPIFY_API_SECRET=your_api_secret
+  - SHOPIFY_API_KEY=your_api_key
+  - SHOPIFY_API_SECRET=your_api_secret
 
 ### 4. Start the App
 
