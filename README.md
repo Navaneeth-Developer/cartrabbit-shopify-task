@@ -29,7 +29,7 @@ npm install
 
 ### 3. Configure Environment Variables
 
-- Create a .env file in the outside web directory.
+- Create a .env file in the root directory of the project.
 - Add the required Shopify
 
   API keys:
@@ -45,14 +45,31 @@ npm run dev
 
 ## Features
 
-✅ Shopify OAuth authentication
-✅ Fetch & display Shopify products
-✅ Bulk update product titles
+- ✅ Shopify OAuth authentication
+- ✅ Fetch & display Shopify products
+- ✅ Bulk update product titles
 
 ## Notes
 
 - This app works only with Shopify development stores.
 - Ensure your Shopify CLI and API keys are correctly configured.
+
+### App Demo
+
+## Image Preview
+
+![Sample Image](media/screenshots/Gridview.png)
+![Sample Image](media/screenshots/ListView.png)
+![Sample Image](media/screenshots/ListView_2.png)
+
+## Video Preview
+
+`html
+<video width="640" height="360" controls>
+
+  <source src="https://somup.com/cTfoftsaoY" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
