@@ -64,7 +64,7 @@ npm run dev
 
 ## Video Preview
 
-[![Watch the video](https://your-thumbnail-url.com)](https://www.loom.com/share/d41184a974604dc8aba01d7af9ddb638)
+[![Watch the video](https://somup.com/cTfoigsaav)](https://somup.com/cTfoigsaav)
 
 ---
 
